@@ -1,13 +1,38 @@
+@font-face {
+  src: url(https://code.s3.yandex.net/web-code/fonts/Ibmplexsans.woff2) format('woff2');
+  font-family: 'IBM Plex Sans';
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url(https://code.s3.yandex.net/web-code/fonts/Ibmplexsans.woff) format('woff');
+  font-family: 'IBM Plex Sans';
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url(https://code.s3.yandex.net/web-code/fonts/Ibmplexsanssemibold.woff2) format('woff2');
+  font-family: 'IBM Plex Sans';
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  src: url(https://code.s3.yandex.net/web-code/fonts/Ibmplexsanssemibold.woff) format('woff');
+  font-family: 'IBM Plex Sans';
+  font-weight: bold;
+  font-display: swap;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p, h1, h2, h3 {
+  margin: 0;
 }
