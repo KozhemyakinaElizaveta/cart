@@ -1,13 +1,10 @@
 # Корзина товаров
 
-Профильное задание
-Фронтенд-разработчик в команду VK Маркет
-
-Приложение развернуто на [GitHub Pages](https://kozhemyakinaelizaveta.github.io/vk-market).
+Приложение развернуто на [GitHub Pages](https://kozhemyakinaelizaveta.github.io/cart).
 
 ```
-git clone https://github.com/KozhemyakinaElizaveta/vk-market.git
-cd vk-market
+git clone https://github.com/KozhemyakinaElizaveta/cart.git
+cd cart
 npm ci
 npm start
 ```
